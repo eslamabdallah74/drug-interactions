@@ -180,10 +180,10 @@ const getSeverity = (sev) => severityConfig[sev] || severityConfig.moderate
           </div>
 
           <!-- History Bar -->
-          <div v-if="searchHistory.value.length && !result" class="flex flex-wrap gap-2 items-center mb-4">
+          <div v-if="searchHistory.length && !result" class="flex flex-wrap gap-2 items-center mb-4">
             <span class="text-sm text-gray-500 py-1">Recent:</span>
             <button
-              v-for="(entry, idx) in searchHistory.value"
+              v-for="(entry, idx) in searchHistory"
               :key="idx"
               @click="fillInput(entry)"
               class="group px-3 py-1 bg-gray-50 rounded-full text-sm text-gray-600 hover:bg-blue-50 hover:text-blue-600 transition-all flex items-center gap-1"
