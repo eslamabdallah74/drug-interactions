@@ -17,9 +17,15 @@ const getRxcui = async (drugName) => {
   try {
     console.log(`[API CALL] Fetching RxCUI for "${trimmedDrug}"`);
     const response = await fetch(`${RXNAV_BASE}/approximateTerm.json?term=${encodeURIComponent(trimmedDrug)}&maxEntries=1`);
-    const data = await response.json();
 
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(`RxNav API error ${response.status}: ${errorText.substring(0, 100)}`);
+    }
+
+    const data = await response.json();
     const candidates = data?.approximateGroup?.candidate || [];
+
     if (candidates.length === 0) {
       return { name: trimmedDrug, rxcui: null, error: 'Drug not found', cached: false };
     }
@@ -39,6 +45,14 @@ const fetchDrugLabel = async (drugName) => {
     console.log(`[API CALL] Fetching FDA label for "${drugName}"`);
     const apiKeyParam = getApiKeyParam();
     const response = await fetch(`${OPENFDA_BASE}?search=openfda.generic_name:"${encodeURIComponent(drugName.toLowerCase())}"&sort=effective_time:desc&limit=1${apiKeyParam}`);
+
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      const errorMsg = errorData?.error || `FDA API error ${response.status}`;
+      console.error(`[API ERROR] ${errorMsg}`);
+      return null;
+    }
+
     const data = await response.json();
     const results = data?.results || [];
 

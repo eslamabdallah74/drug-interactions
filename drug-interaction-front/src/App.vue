@@ -19,17 +19,20 @@ const checkInteractions = async () => {
 
   try {
     const drugs = drugInput.value.split(',').map(d => d.trim()).filter(d => d.length > 0)
+    console.log('Starting interaction check for drugs:', drugs);
     const data = await checkDrugInteractions(drugs)
+    console.log('API result:', data)
 
     if (data.interactions.length === 0 && data.normalized.length < 2) {
       errorMessage.value = data.errors?.[0]?.error || 'Failed to check interactions'
+      console.log('显示错误:', data.errors)
       return
     }
 
     result.value = data
   } catch (error) {
     errorMessage.value = 'Failed to check interactions. Please try again.'
-    console.error(error)
+    console.error('检查异常:', error)
   } finally {
     loading.value = false
   }
