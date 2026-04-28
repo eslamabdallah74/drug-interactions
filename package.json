@@ -1,0 +1,10 @@
+{
+  "name": "drug-interactions",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix drug-interaction-front",
+    "install:all": "npm install --prefix drug-interaction-front"
+  },
+  "devDependencies": {}
+}
