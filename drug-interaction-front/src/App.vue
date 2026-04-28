@@ -13,26 +13,32 @@ const checkInteractions = async () => {
     return
   }
 
+  const drugs = drugInput.value.split(',').map(d => d.trim()).filter(d => d.length > 0)
+
+  if (drugs.length < 2) {
+    errorMessage.value = 'Please enter at least two drug names'
+    return
+  }
+
   loading.value = true
   errorMessage.value = ''
   result.value = null
 
   try {
-    const drugs = drugInput.value.split(',').map(d => d.trim()).filter(d => d.length > 0)
     console.log('Starting interaction check for drugs:', drugs);
     const data = await checkDrugInteractions(drugs)
     console.log('API result:', data)
 
     if (data.interactions.length === 0 && data.normalized.length < 2) {
       errorMessage.value = data.errors?.[0]?.error || 'Failed to check interactions'
-      console.log('显示错误:', data.errors)
+      console.log('Errors:', data.errors)
       return
     }
 
     result.value = data
   } catch (error) {
     errorMessage.value = 'Failed to check interactions. Please try again.'
-    console.error('检查异常:', error)
+    console.error('Error:', error)
   } finally {
     loading.value = false
   }

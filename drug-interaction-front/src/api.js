@@ -1,7 +1,10 @@
 const RXNAV_BASE = 'https://rxnav.nlm.nih.gov/REST';
 const OPENFDA_BASE = 'https://api.fda.gov/drug/label.json';
-// Optional: Set VITE_OPENFDA_API_KEY in .env file for higher rate limits
 const OPENFDA_API_KEY = import.meta.env.VITE_OPENFDA_API_KEY || '';
+
+// In-memory caches
+const drugCache = {};
+const interactionCache = {};
 
 const getApiKeyParam = () => OPENFDA_API_KEY ? `&api_key=${OPENFDA_API_KEY}` : '';
 
