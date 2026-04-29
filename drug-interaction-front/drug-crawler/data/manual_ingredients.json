@@ -1,0 +1,461 @@
+{
+  "Adol": [
+    "Acetaminophen"
+  ],
+  "Rivo": [
+    "Acetaminophen"
+  ],
+  "Ezamol": [
+    "Acetaminophen"
+  ],
+  "Setamol": [
+    "Acetaminophen"
+  ],
+  "Cetal": [
+    "Acetaminophen"
+  ],
+  "Abimol": [
+    "Acetaminophen"
+  ],
+  "Paramol": [
+    "Acetaminophen",
+    "Codeine"
+  ],
+  "Solpadeine": [
+    "Acetaminophen",
+    "Codeine",
+    "Caffeine"
+  ],
+  "Brufen": [
+    "Ibuprofen"
+  ],
+  "Profinal": [
+    "Ibuprofen"
+  ],
+  "Spedifen": [
+    "Ibuprofen"
+  ],
+  "Cataflam": [
+    "Diclofenac"
+  ],
+  "Catafast": [
+    "Diclofenac"
+  ],
+  "Declophen": [
+    "Diclofenac"
+  ],
+  "Olfen": [
+    "Diclofenac"
+  ],
+  "Rofenac": [
+    "Diclofenac"
+  ],
+  "Movalis": [
+    "Meloxicam"
+  ],
+  "Ketofan": [
+    "Ketoprofen"
+  ],
+  "Profenid": [
+    "Ketoprofen"
+  ],
+  "Ketolac": [
+    "Ketorolac"
+  ],
+  "Arcoxia": [
+    "Etoricoxib"
+  ],
+  "Indocid": [
+    "Indomethacin"
+  ],
+  "Feldene": [
+    "Piroxicam"
+  ],
+  "Tilcotil": [
+    "Tenoxicam"
+  ],
+  "Tramal": [
+    "Tramadol"
+  ],
+  "Ponstan": [
+    "Mefenamic Acid"
+  ],
+  "Lecaspar": [
+    "Aspirin"
+  ],
+  "Curam": [
+    "Amoxicillin",
+    "Clavulanate"
+  ],
+  "Ospamox": [
+    "Amoxicillin"
+  ],
+  "Megamox": [
+    "Amoxicillin",
+    "Clavulanate"
+  ],
+  "Hibiotic": [
+    "Cephradine"
+  ],
+  "Velosef": [
+    "Cephradine"
+  ],
+  "Ceporex": [
+    "Cephalexin"
+  ],
+  "Megapen": [
+    "Ampicillin",
+    "Cloxacillin"
+  ],
+  "Flumox": [
+    "Flucloxacillin"
+  ],
+  "Unictam": [
+    "Ampicillin",
+    "Sulbactam"
+  ],
+  "Klacid": [
+    "Clarithromycin"
+  ],
+  "Klaricid": [
+    "Clarithromycin"
+  ],
+  "E-mycin": [
+    "Erythromycin"
+  ],
+  "Rovamycin": [
+    "Spiramycin"
+  ],
+  "Tavanic": [
+    "Levofloxacin"
+  ],
+  "Tarivid": [
+    "Ofloxacin"
+  ],
+  "Septrin": [
+    "Sulfamethoxazole",
+    "Trimethoprim"
+  ],
+  "Antinal": [
+    "Nifuroxazide"
+  ],
+  "Antopral": [
+    "Omeprazole"
+  ],
+  "Omez": [
+    "Omeprazole"
+  ],
+  "Controloc": [
+    "Pantoprazole"
+  ],
+  "Pantoloc": [
+    "Pantoprazole"
+  ],
+  "Pariet": [
+    "Rabeprazole"
+  ],
+  "Famotic": [
+    "Famotidine"
+  ],
+  "Antepsin": [
+    "Sucralfate"
+  ],
+  "Motilium": [
+    "Domperidone"
+  ],
+  "Costi": [
+    "Domperidone"
+  ],
+  "Primperan": [
+    "Metoclopramide"
+  ],
+  "Maalox": [
+    "Aluminum Hydroxide",
+    "Magnesium Hydroxide"
+  ],
+  "Mucogel": [
+    "Aluminum Hydroxide",
+    "Magnesium Hydroxide"
+  ],
+  "Disflatyl": [
+    "Simethicone"
+  ],
+  "Spasmofree": [
+    "Hyoscine Butylbromide"
+  ],
+  "Duphalac": [
+    "Lactulose"
+  ],
+  "Movicol": [
+    "Polyethylene Glycol"
+  ],
+  "Telfast": [
+    "Fexofenadine"
+  ],
+  "Claritine": [
+    "Loratadine"
+  ],
+  "Allerfen": [
+    "Cetirizine"
+  ],
+  "Aerius": [
+    "Desloratadine"
+  ],
+  "Histop": [
+    "Cyproheptadine"
+  ],
+  "Avil": [
+    "Pheniramine"
+  ],
+  "Clarinase": [
+    "Loratadine",
+    "Pseudoephedrine"
+  ],
+  "Comtrex": [
+    "Acetaminophen",
+    "Phenylephrine",
+    "Chlorpheniramine"
+  ],
+  "Sinufed": [
+    "Pseudoephedrine"
+  ],
+  "Coldex": [
+    "Acetaminophen",
+    "Pseudoephedrine",
+    "Chlorpheniramine"
+  ],
+  "Strepsils": [
+    "Amylmetacresol",
+    "Dichlorobenzyl Alcohol"
+  ],
+  "Difflam": [
+    "Benzydamine"
+  ],
+  "Bisolvon": [
+    "Bromhexine"
+  ],
+  "Toplexil": [
+    "Oxomemazine"
+  ],
+  "Robitussin": [
+    "Guaifenesin"
+  ],
+  "Mucosolvan": [
+    "Ambroxol"
+  ],
+  "Otrivin": [
+    "Xylometazoline"
+  ],
+  "Nasivin": [
+    "Oxymetazoline"
+  ],
+  "Flixonase": [
+    "Fluticasone"
+  ],
+  "Seretide": [
+    "Fluticasone",
+    "Salmeterol"
+  ],
+  "Foradil": [
+    "Formoterol"
+  ],
+  "Concor": [
+    "Bisoprolol"
+  ],
+  "Betaloc": [
+    "Metoprolol"
+  ],
+  "Dilatrend": [
+    "Carvedilol"
+  ],
+  "Nebilet": [
+    "Nebivolol"
+  ],
+  "Amlor": [
+    "Amlodipine"
+  ],
+  "Isoptin": [
+    "Verapamil"
+  ],
+  "Tritace": [
+    "Ramipril"
+  ],
+  "Coversyl": [
+    "Perindopril"
+  ],
+  "Renitec": [
+    "Enalapril"
+  ],
+  "Aprovel": [
+    "Irbesartan"
+  ],
+  "Olmetec": [
+    "Olmesartan"
+  ],
+  "Marevan": [
+    "Warfarin"
+  ],
+  "Natrilix": [
+    "Indapamide"
+  ],
+  "Cidophage": [
+    "Metformin"
+  ],
+  "Diamicron": [
+    "Gliclazide"
+  ],
+  "Daonil": [
+    "Glibenclamide"
+  ],
+  "Galvus": [
+    "Vildagliptin"
+  ],
+  "Mixtard": [
+    "Insulin"
+  ],
+  "Actrapid": [
+    "Insulin"
+  ],
+  "Eltroxin": [
+    "Levothyroxine"
+  ],
+  "Neo-mercazole": [
+    "Carbimazole"
+  ],
+  "Lustral": [
+    "Sertraline"
+  ],
+  "Cipralex": [
+    "Escitalopram"
+  ],
+  "Anafranil": [
+    "Clomipramine"
+  ],
+  "Tryptizol": [
+    "Amitriptyline"
+  ],
+  "Citol": [
+    "Citalopram"
+  ],
+  "Cidamex": [
+    "Acetazolamide"
+  ],
+  "Depakine": [
+    "Valproate"
+  ],
+  "Largactil": [
+    "Chlorpromazine"
+  ],
+  "Daktarin": [
+    "Miconazole"
+  ],
+  "Canesten": [
+    "Clotrimazole"
+  ],
+  "Distocide": [
+    "Praziquantel"
+  ],
+  "Zentel": [
+    "Albendazole"
+  ],
+  "Fasigyn": [
+    "Tinidazole"
+  ],
+  "Solu-Cortef": [
+    "Hydrocortisone"
+  ],
+  "Solu-Medrol": [
+    "Methylprednisolone"
+  ],
+  "Tobrex": [
+    "Tobramycin"
+  ],
+  "Tobradex": [
+    "Tobramycin",
+    "Dexamethasone"
+  ],
+  "Fucidin": [
+    "Fusidic Acid"
+  ],
+  "Diprosone": [
+    "Betamethasone"
+  ],
+  "Locoid": [
+    "Hydrocortisone Butyrate"
+  ],
+  "Roaccutane": [
+    "Isotretinoin"
+  ],
+  "Microgynon": [
+    "Levonorgestrel",
+    "Ethinyl Estradiol"
+  ],
+  "Duphaston": [
+    "Dydrogesterone"
+  ],
+  "Alphintern": [
+    "Trypsin",
+    "Chymotrypsin"
+  ],
+  "Reparil": [
+    "Aescin"
+  ],
+  "Toradol": [
+    "Ketorolac"
+  ],
+  "Amoxil": [
+    "Amoxicillin"
+  ],
+  "Rocephin": [
+    "Ceftriaxone"
+  ],
+  "Losec": [
+    "Omeprazole"
+  ],
+  "Atarax": [
+    "Hydroxyzine"
+  ],
+  "Periactin": [
+    "Cyproheptadine"
+  ],
+  "Adalat": [
+    "Nifedipine"
+  ],
+  "Capoten": [
+    "Captopril"
+  ],
+  "Forxiga": [
+    "Dapagliflozin"
+  ],
+  "Elocon": [
+    "Mometasone"
+  ],
+  "Yasmin": [
+    "Drospirenone",
+    "Ethinyl Estradiol"
+  ],
+  "Lipanthyl": [
+    "Fenofibrate"
+  ],
+  "Lipitor": [
+    "Atorvastatin"
+  ],
+  "Ator": [
+    "Atorvastatin"
+  ],
+  "Crestor": [
+    "Rosuvastatin"
+  ],
+  "Zocor": [
+    "Simvastatin"
+  ],
+  "Mevacor": [
+    "Lovastatin"
+  ],
+  "Lescol": [
+    "Fluvastatin"
+  ],
+  "Pravachol": [
+    "Pravastatin"
+  ]
+}
